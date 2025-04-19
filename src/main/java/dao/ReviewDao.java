@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ReviewDao {
-    private static final String FILE_PATH = "reviews.json";
+    private static final String FILE_PATH = "src/main/resources/reviews.json";
     private List<Review> reviews = new ArrayList<>();
     private final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 

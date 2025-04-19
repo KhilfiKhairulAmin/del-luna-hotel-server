@@ -9,4 +9,6 @@ public class Guest {
   public int points;
   public String level;
   public String tag;
+  public String passwordHash;
+  public String sessionId;
 }

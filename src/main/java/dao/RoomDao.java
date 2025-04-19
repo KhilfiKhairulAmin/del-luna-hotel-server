@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class RoomDao {
-    private static final String FILE_PATH = "rooms.json";
+    private static final String FILE_PATH = "src/main/resources/rooms.json";
     private List<Room> rooms = new ArrayList<>();
     private final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 

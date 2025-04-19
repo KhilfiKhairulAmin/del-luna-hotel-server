@@ -1,5 +1,14 @@
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import controllers.GuestController;
+import dao.BookingDao;
+import dao.GuestDao;
+import dao.ReviewDao;
+import dao.RoomDao;
+import dao.RoomTypeDao;
+import models.RoomType;
+
 import static spark.Spark.*;
 
 public class MainServer {
@@ -29,5 +38,30 @@ public class MainServer {
                 return "{\"error\": \"Invalid JSON format\"}";
             }
         });
+
+        // Initialize DAOs
+        RoomDao roomDao = new RoomDao();
+        BookingDao bookingDao = new BookingDao();
+        GuestDao guestDao = new GuestDao();
+        ReviewDao reviewDao = new ReviewDao();
+        RoomTypeDao roomTypeDao = new RoomTypeDao();
+        roomDao.loadFromFile();
+        bookingDao.loadFromFile();
+        guestDao.loadFromFile();
+        reviewDao.loadFromFile();
+        roomTypeDao.loadFromFile();
+
+
+        // Register controllers
+        new GuestController(guestDao);
+
+        // Shutdown hook to save data
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            roomDao.saveToFile();
+            bookingDao.saveToFile();
+            guestDao.saveToFile();
+            reviewDao.saveToFile();
+            roomTypeDao.saveToFile();
+        }));
     }
 }
