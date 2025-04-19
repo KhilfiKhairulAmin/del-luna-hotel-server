@@ -1,7 +1,2 @@
-guestId,email,fullName,phone,gender,points,level
-G001,khilfikhairulamin@gmail.com,KFY,01156325494,Female,0,Newcomer
-G002,khilfi@gmail.com,Khilfi,01156325494,Male,0,Newcomer
-G003,aman@gmail.com,Aman,01156325494,Male,0,Newcomer
-G004,khilfika@gmail.com,Khilfi KA,01156325492,Male,0,Newcomer
-G005,a@a.a,Khdwia,1111111111,Male,0,Newcomer
-G006,khilfik@gmail.com,Khilfi Khairul,01156325494,Male,0,Newcomer
+guestId,email,fullName,phone,gender,points,level,tags
+1,khilfikhairulamin@gmail.com,KFY,01156325494,Female,0,Newcomer,Traveller

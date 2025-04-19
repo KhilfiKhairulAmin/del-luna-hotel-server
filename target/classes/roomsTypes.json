@@ -1,0 +1,74 @@
+[
+  {
+    "typeId": 1,
+    "typeName": "single",
+    "pricePerNight": 90,
+    "numOfPax": 1,
+    "moods": ["Solo", "Business", "Budget"],
+    "amenities": ["1 Single Bed", "Private Bathroom", "WiFi", "Air Conditioning"],
+    "img": "images/rooms/single.jpg"
+  },
+  {
+    "typeId": 2,
+    "typeName": "double",
+    "pricePerNight": 140,
+    "numOfPax": 2,
+    "moods": ["Couple", "Friends", "Comfort"],
+    "amenities": ["1 Queen Bed", "Private Bathroom", "WiFi", "TV"],
+    "img": "images/rooms/double.jpg"
+  },
+  {
+    "typeId": 3,
+    "typeName": "triple",
+    "pricePerNight": 180,
+    "numOfPax": 3,
+    "moods": ["Group", "Family", "Budget"],
+    "amenities": ["3 Twin Beds", "Private Bathroom", "WiFi", "Mini Fridge"],
+    "img": "images/rooms/triple.jpg"
+  },
+  {
+    "typeId": 4,
+    "typeName": "quad",
+    "pricePerNight": 220,
+    "numOfPax": 4,
+    "moods": ["Family", "Friends", "Budget"],
+    "amenities": ["2 Double Beds", "Private Bathroom", "WiFi", "Balcony", "TV"],
+    "img": "images/rooms/quad.jpg"
+  },
+  {
+    "typeId": 5,
+    "typeName": "executive",
+    "pricePerNight": 300,
+    "numOfPax": 2,
+    "moods": ["Business", "Luxury", "Productivity"],
+    "amenities": ["1 King Bed", "Private Bathroom", "Smart TV", "Work Desk", "Lounge Area"],
+    "img": "images/rooms/executive.jpg"
+  },
+  {
+    "typeId": 6,
+    "typeName": "suite",
+    "pricePerNight": 400,
+    "numOfPax": 4,
+    "moods": ["Luxury", "Long Stay", "Celebration"],
+    "amenities": ["1 King Bed", "Private Bathroom", "Jacuzzi", "Mini Bar", "Living Room"],
+    "img": "images/rooms/suite.jpg"
+  },
+  {
+    "typeId": 7,
+    "typeName": "family",
+    "pricePerNight": 350,
+    "numOfPax": 6,
+    "moods": ["Kids", "Family", "Spacious"],
+    "amenities": ["2 Queen Beds", "Private Bathroom", "WiFi", "Mini Kitchen", "Dining Area"],
+    "img": "images/rooms/family.jpg"
+  },
+  {
+    "typeId": 8,
+    "typeName": "honeymoon suite",
+    "pricePerNight": 500,
+    "numOfPax": 2,
+    "moods": ["Romance", "Luxury", "Privacy"],
+    "amenities": ["1 King Bed", "Jacuzzi", "Romantic Decor", "Couple's Spa Access", "Ocean View"],
+    "img": "images/rooms/honeymoon.jpg"
+  }
+]

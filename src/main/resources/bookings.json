@@ -1,0 +1,12 @@
+[
+  {
+    "bookingId": "1",
+    "guestId": "1",
+    "roomNum": "102",
+    "serviceIds": [],
+    "checkInDate": "",
+    "checkOutDate": "",
+    "invoiceId": "",
+    "pointsObtained": 0
+  }
+]

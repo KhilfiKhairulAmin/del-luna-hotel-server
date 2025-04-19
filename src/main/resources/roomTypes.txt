@@ -1,9 +1,0 @@
-typeId,typeName,pricePerNight,numOfPax,moods,amenities,img
-1,single,90,1,Solo|Business|Budget,1 Single Bed|Private Bathroom|WiFi|Air Conditioning,images/rooms/single.jpg
-2,double,140,2,Couple|Friends|Comfort,1 Queen Bed|Private Bathroom|WiFi|TV,images/rooms/double.jpg
-3,triple,180,3,Group|Family|Budget,3 Twin Beds|Private Bathroom|WiFi|Mini Fridge,images/rooms/triple.jpg
-4,quad,220,4,Family|Friends|Budget,2 Double Beds|Private Bathroom|WiFi|Balcony|TV,images/rooms/quad.jpg
-5,executive,300,2,Business|Luxury|Productivity,1 King Bed|Private Bathroom|Smart TV|Work Desk|Lounge Area,images/rooms/executive.jpg
-6,suite,400,4,Luxury|Long Stay|Celebration,1 King Bed|Private Bathroom|Jacuzzi|Mini Bar|Living Room,images/rooms/suite.jpg
-7,family,350,6,Kids|Family|Spacious,2 Queen Beds|Private Bathroom|WiFi|Mini Kitchen|Dining Area,images/rooms/family.jpg
-8,honeymoon suite,500,2,Romance|Luxury|Privacy,1 King Bed|Jacuzzi|Romantic Decor|Couple's Spa Access|Ocean View,images/rooms/honeymoon.jpg

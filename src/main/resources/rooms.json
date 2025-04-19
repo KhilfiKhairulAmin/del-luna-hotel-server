@@ -1,0 +1,278 @@
+[
+  {
+    "roomNum": "101",
+    "floorLevel": 1,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "102",
+    "floorLevel": 1,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "103",
+    "floorLevel": 2,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "104",
+    "floorLevel": 2,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "105",
+    "floorLevel": 3,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "106",
+    "floorLevel": 3,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "107",
+    "floorLevel": 4,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "108",
+    "floorLevel": 4,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "109",
+    "floorLevel": 1,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "110",
+    "floorLevel": 2,
+    "roomType": 1,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "201",
+    "floorLevel": 1,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "202",
+    "floorLevel": 1,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "203",
+    "floorLevel": 2,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "204",
+    "floorLevel": 2,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "205",
+    "floorLevel": 3,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "206",
+    "floorLevel": 3,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "207",
+    "floorLevel": 4,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "208",
+    "floorLevel": 4,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "209",
+    "floorLevel": 1,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "210",
+    "floorLevel": 2,
+    "roomType": 2,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "301",
+    "floorLevel": 1,
+    "roomType": 3,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "302",
+    "floorLevel": 2,
+    "roomType": 3,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "303",
+    "floorLevel": 3,
+    "roomType": 3,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "304",
+    "floorLevel": 4,
+    "roomType": 3,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "305",
+    "floorLevel": 4,
+    "roomType": 3,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "306",
+    "floorLevel": 1,
+    "roomType": 4,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "307",
+    "floorLevel": 2,
+    "roomType": 4,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "308",
+    "floorLevel": 3,
+    "roomType": 4,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "309",
+    "floorLevel": 4,
+    "roomType": 4,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "310",
+    "floorLevel": 3,
+    "roomType": 4,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "401",
+    "floorLevel": 2,
+    "roomType": 7,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "402",
+    "floorLevel": 3,
+    "roomType": 7,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "403",
+    "floorLevel": 4,
+    "roomType": 7,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "501",
+    "floorLevel": 4,
+    "roomType": 5,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "502",
+    "floorLevel": 5,
+    "roomType": 5,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "503",
+    "floorLevel": 6,
+    "roomType": 5,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "601",
+    "floorLevel": 4,
+    "roomType": 6,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "602",
+    "floorLevel": 5,
+    "roomType": 6,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "603",
+    "floorLevel": 6,
+    "roomType": 6,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "701",
+    "floorLevel": 4,
+    "roomType": 8,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "702",
+    "floorLevel": 4,
+    "roomType": 8,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "703",
+    "floorLevel": 5,
+    "roomType": 8,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "704",
+    "floorLevel": 5,
+    "roomType": 8,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "705",
+    "floorLevel": 6,
+    "roomType": 8,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "706",
+    "floorLevel": 6,
+    "roomType": 8,
+    "reviewIds": []
+  },
+  {
+    "roomNum": "707",
+    "floorLevel": 6,
+    "roomType": 8,
+    "reviewIds": []
+  }
+]
