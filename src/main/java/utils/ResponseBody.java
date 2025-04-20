@@ -16,8 +16,14 @@ public class ResponseBody {
     int i = properties.indexOf(property);
     if (i != -1) {
       data.set(i, datum);
+      return;
     }
     properties.add(property);
     data.add(datum);
+  }
+
+  public void clearProperties() {
+    properties.clear();
+    data.clear();
   }
 }

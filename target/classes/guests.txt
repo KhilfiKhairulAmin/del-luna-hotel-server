@@ -1,2 +1,3 @@
 guestId,email,fullName,phone,gender,points,level,tags,passwordHash,sessionId
-1,khilfika@gmail.com,KFY,01156325494,Female,0,Newcomer,Traveller,461c9585d92677909c6544be532fae3154138e278d236b075ffbe299241d8906,hu
+1,khilfika@gmail.com,KFY,01156325494,Female,0,Newcomer,Traveller,461c9585d92677909c6544be532fae3154138e278d236b075ffbe299241d8906,
+2,khilfikk@gmail.com,Khilfi Khairul Amin,0121231111,Male,0,First-time User,CEO,,

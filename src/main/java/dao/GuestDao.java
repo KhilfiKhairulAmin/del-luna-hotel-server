@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import models.Guest;
+import utils.Hash;
 
 public class GuestDao {
     private static final String FILE_PATH = "src/main/resources/guests.txt";
@@ -69,8 +70,32 @@ public class GuestDao {
     // CRUD operations
     public Guest createGuest(Guest guest) {
         if (getGuest(guest.guestId) != null) return null;
+        guest.level = "First-time User";
+        guest.points = 0;
+        guest.tag = "Newcomer";
+        guest.passwordHash = Hash.hashString(guest.passwordHash);
+        guest.guestId = Integer.toString(Integer.parseInt(guests.get(guests.size()-1).guestId)+1);
         guests.add(guest);
         return guest;
+    }
+
+    public boolean updateGuest(Guest updatedGuest) {
+        for (int i = 0; i < guests.size(); i++) {
+            Guest existingGuest = guests.get(i);
+            if (existingGuest.guestId.equals(updatedGuest.guestId)) {
+                // Preserve fields that shouldn't be updated directly
+                updatedGuest.points = existingGuest.points;
+                updatedGuest.level = existingGuest.level;
+                // updatedGuest.tag = existingGuest.tag;
+                updatedGuest.passwordHash = existingGuest.passwordHash;
+                updatedGuest.sessionId = existingGuest.sessionId;
+                
+                guests.set(i, updatedGuest);
+                saveToFile();
+                return true;
+            }
+        }
+        return false;
     }
 
     public Guest getGuest(String guestId) {
@@ -108,6 +133,22 @@ public class GuestDao {
         return guests.stream()
                 .filter(g -> g.sessionId != null 
                            && g.sessionId.equals(sessionId))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public Guest getGuestByEmail(String email) {
+        return guests.stream()
+                .filter(g -> g.email != null 
+                           && g.email.equals(email))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public Guest getGuestById(String guestId) {
+        return guests.stream()
+                .filter(g -> g.guestId != null 
+                           && g.guestId.equals(guestId))
                 .findFirst()
                 .orElse(null);
     }
